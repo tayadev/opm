@@ -1,0 +1,72 @@
+{
+    "move-transition": {
+        "name": "Move Transition",
+        "author": "Exeldro",
+        "homepage": "https://obsproject.com/forum/resources/move-transition.913/",
+        "versions": {
+            "2.7.2": {
+                "url": "https://obsproject.com/forum/resources/move-transition.913/version/4597/download?file=89088",
+                "sha256": "2aa4b2ee092a03f1e8034fef451581704995efba353459031583708f89af1a24"
+            },
+            "2.7.1": {
+                "url": "https://obsproject.com/forum/resources/move-transition.913/version/4560/download?file=88394",
+                "sha256": "3b0647eea3202b96a04b17505a74fa3424a5e885a539ad04c826ef8630ad48f6"
+            }
+        }
+    },
+    "source-record": {
+        "name": "Source Record",
+        "author": "Exeldro",
+        "homepage": "https://obsproject.com/forum/resources/source-record.1285/",
+        "versions": {
+            "0.3.1": {
+                "url": "https://obsproject.com/forum/resources/source-record.1285/version/4581/download?file=88760",
+                "sha256":"cfcf20d0270ff2741d52af4781833bf295ea58b4d979eb57b11ade78fbe4d272"
+            }
+        }
+    },
+    "transition-table": {
+        "name": "Transition Table",
+        "author": "Exeldro",
+        "homepage": "https://obsproject.com/forum/resources/transition-table.1174/",
+        "versions": {
+            "0.2.5": {
+                "url": "https://obsproject.com/forum/resources/transition-table.1174/version/4409/download?file=86159",
+                "sha256": "bb95403706836c2043062040b76e62acd505e15157f9235bb2ceb256b0d7a025"
+            }
+        }
+    },
+    "dynamic-delay": {
+        "name": "Dynamic Delay",
+        "author": "Exeldro",
+        "homepage": "https://obsproject.com/forum/resources/dynamic-delay.1035/",
+        "versions": {
+            "0.1.4": {
+                "url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/4615/download?file=89294",
+                "sha256": "69c46e80c5bdc3a60bab2a72daadb70433ed5691a45599dcf92a900c1adfa953"
+            }
+        }
+    },
+    "obs_scene_tree_view": {
+        "name": "Scene Tree View",
+        "author": "DigitOtter",
+        "homepage": "https://obsproject.com/forum/resources/scene-tree-folder-plugin-for-obs-studio.1500/",
+        "versions": {
+            "0.1.4": {
+                "url": "https://github.com/DigitOtter/obs_scene_tree_view/releases/download/v0.1.4/obs_scene_tree_view_win_v0_1_4.zip",
+                "sha256":"91a7b1716cbb9211286c2998fef0ef990b016bdfc564f065e353794f8abbf42e"
+            }
+        }
+    },
+    "win-spout": {
+        "name": "Spout2 Plugin for OBS Studio",
+        "author": "Off-World-Live",
+        "homepage": "https://github.com/Off-World-Live/obs-spout2-plugin",
+        "versions": {
+            "1.5": {
+                "url": "https://github.com/Off-World-Live/obs-spout2-plugin/releases/download/v1.5/OBS_Spout2_Plugin_ManualInstall_v1.5-obs28.zip",
+                "sha256": "95072462753ac726a90a7b336243dd4adeb653bdc6c23872f79b1902c269647e"
+            }
+        }
+    }
+}
