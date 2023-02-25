@@ -1,0 +1,24 @@
+{
+    "id": "source-record",
+    "name": "Source Record",
+    "description": "Plugin for OBS Studio to add a filter that allows you to record a source.",
+    "author": "Exeldro",
+    "source": "https://github.com/exeldro/obs-source-record",
+    "issues": "https://github.com/exeldro/obs-source-record/issues",
+    "forum": "https://obsproject.com/forum/resources/source-record.1285/",
+    "license": "GPL-2.0",
+    "versions": {
+        "0.0.1": {
+            "release_date": "1620864000",
+            "downloads": [
+                {
+                    "os": "win",
+                    "arch": [ "x86_64" ],
+                    "obs": "26.0.0",
+                    "url": "https://obsproject.com/forum/resources/source-record.1285/version/3366/download?file=71071",
+                    "sha256": "65db7d3416083cb97a4d00e1d6682df7f8a9067b0c4d4296a2eb23daedfd88c8"
+                }
+            ]
+        }
+    }
+}
