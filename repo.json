@@ -1,0 +1,5820 @@
+{
+	"$schema": "./reposchema.json",
+	"plugins": {
+		"durchblick": {
+			"name": "Durchblick",
+			"summary": "Modular multiview for OBS Studio",
+			"author": "univrsal",
+			"homepage": "https://github.com/univrsal/durchblick",
+			"versions": {
+				"0.5.0": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/durchblick/releases/download/v0.5.0/durchblick-0.5.0-linux-x86_64.deb"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/durchblick/releases/download/v0.5.0/durchblick-0.5.0-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/durchblick/releases/download/v0.5.0/durchblick-0.5.0-windows-x86.zip"
+						}
+					]
+				},
+				"0.4.0": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/durchblick/releases/download/v0.4.0/durchblick-0.4.0-linux-x86_64.deb"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/durchblick/releases/download/v0.4.0/durchblick-0.4.0-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/durchblick/releases/download/v0.4.0/durchblick-0.4.0-windows-x86.zip"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/durchblick/releases/download/v0.1.0/durchblick.v0.1.0.bin.linux.x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/durchblick/releases/download/v0.1.0/durchblick.v0.1.0.bin.windows.zip"
+						}
+					]
+				}
+			}
+		},
+		"tuna": {
+			"name": "Tuna",
+			"summary": "Song information plugin for obs-studio",
+			"author": "univrsal",
+			"homepage": "https://github.com/univrsal/tuna",
+			"versions": {
+				"1.9.5": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.5/tuna-1.9.5-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.5/tuna-1.9.5-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.5/tuna-1.9.5-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.5/tuna-1.9.5-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.5/tuna-1.9.5-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.5/tuna-1.9.5-windows-x86.zip"
+						}
+					]
+				},
+				"1.9.4": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.4/tuna-1.9.4-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.4/tuna-1.9.4-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.4/tuna-1.9.4-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.4/tuna-1.9.4-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.4/tuna-1.9.4-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.4/tuna-1.9.4-windows-x86.zip"
+						}
+					]
+				},
+				"1.9.3": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.3/tuna-1.9.3-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.3/tuna-1.9.3-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.3/tuna-1.9.3-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.3/tuna-1.9.3-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.3/tuna-1.9.3-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.3/tuna-1.9.3-windows-x86.zip"
+						}
+					]
+				},
+				"1.9.2": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.2/tuna-1.9.2-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.2/tuna-1.9.2-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.2/tuna-1.9.2-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.2/tuna-1.9.2-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.2/tuna-1.9.2-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.2/tuna-1.9.2-windows-x86.zip"
+						}
+					]
+				},
+				"1.9.1": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.1/tuna-1.9.1-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.1/tuna-1.9.1-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.1/tuna-1.9.1-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.1/tuna-1.9.1-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.1/tuna-1.9.1-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.1/tuna-1.9.1-windows-x86.zip"
+						}
+					]
+				},
+				"1.9.0": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.0/tuna-1.9.0-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.0/tuna-1.9.0-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.0/tuna-1.9.0-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.0/tuna-1.9.0-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.0/tuna-1.9.0-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.9.0/tuna-1.9.0-windows-x86.zip"
+						}
+					]
+				},
+				"1.8.5": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.5/tuna-1.8.5-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.5/tuna-1.8.5-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.5/tuna-1.8.5-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.5/tuna-1.8.5-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.5/tuna-1.8.5-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.5/tuna-1.8.5-windows-x86.zip"
+						}
+					]
+				},
+				"1.8.4": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.4/tuna-1.8.4-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.4/tuna-1.8.4-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.4/tuna-1.8.4-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.4/tuna-1.8.4-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.4/tuna-1.8.4-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.4/tuna-1.8.4-windows-x86.zip"
+						}
+					]
+				},
+				"1.8.3": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.3/tuna-1.8.3-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.3/tuna-1.8.3-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.3/tuna-1.8.3-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.3/tuna-1.8.3-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.3/tuna-1.8.3-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.3/tuna-1.8.3-windows-x86.zip"
+						}
+					]
+				},
+				"1.8.2": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.2/tuna-1.8.2-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.2/tuna-1.8.2-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.2/tuna-1.8.2-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.2/tuna-1.8.2-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.2/tuna-1.8.2-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.2/tuna-1.8.2-windows-x86.zip"
+						}
+					]
+				},
+				"1.8.1": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.1/tuna-1.8.0-linux-x86_64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.1/tuna-1.8.0-macos-arm64.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.1/tuna-1.8.0-macos-universal.pkg"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.1/tuna-1.8.0-macos-x86_64.pkg"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.1/tuna-1.8.0-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.8.1/tuna-1.8.0-windows-x86.zip"
+						}
+					]
+				},
+				"1.0.0": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.0/tuna.v1.0b.linux64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.0/tuna.v1.0b.win32.64.zip"
+						}
+					]
+				},
+				"1.5.0": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.5.0/tuna.v1.5.0.bin.linux.x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.5.0/tuna.v1.5.0.bin.windows.zip"
+						},
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.5.0/tuna.v1.5.0.linux.x64.deb"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.5.0/tuna.v1.5.0.macos.pkg"
+						}
+					]
+				},
+				"1.2.0": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.2/tuna.v.1.2.linux64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/tuna/releases/download/v1.2/tuna.v1.2.win32.64.zip"
+						}
+					]
+				}
+			}
+		},
+		"input-overlay": {
+			"name": "Input Overlay",
+			"summary": "Show keyboard, gamepad and mouse input on stream",
+			"author": "univrsal",
+			"homepage": "https://github.com/univrsal/input-overlay",
+			"versions": {
+				"5.0.3": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.3/input-overlay-5.0.3-linux-x86_64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.3/input-overlay-5.0.3-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.3/input-overlay-5.0.3-windows-x86.zip"
+						}
+					]
+				},
+				"5.0.2": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.2/input-overlay-5.0.2-linux-x86_64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.2/input-overlay-5.0.2-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.2/input-overlay-5.0.2-windows-x86.zip"
+						}
+					]
+				},
+				"5.0.1": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.1/input-overlay-5.0.1-linux-x86_64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.1/input-overlay-5.0.1-windows-x64.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.1/input-overlay-5.0.1-windows-x86.zip"
+						}
+					]
+				},
+				"5.0.0": {
+					"files": [
+						{
+							"os": "linux",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.0-rc1/input-overlay.v5.0.0rc1-8d04a98.linux.zip"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v5.0.0-rc1/input-overlay.v5.0.0rc1-8d04a98.win.zip"
+						}
+					]
+				},
+				"1.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v1.1/input-overlay.v1.1.zip"
+						}
+					]
+				},
+				"1.0.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/univrsal/input-overlay/releases/download/v1/input-overlay.v1.zip"
+						}
+					]
+				}
+			}
+		},
+		"obs-teleport": {
+			"name": "OBS Teleport",
+			"summary": "An OBS Studio plugin for an open NDI-like replacement. Pretty simple, straight forward. No NDI compatibility in any form.",
+			"author": "fzwoch",
+			"homepage": "https://github.com/fzwoch/obs-teleport",
+			"versions": {
+				"0.6.5": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.6.5/obs-teleport.zip"
+						}
+					]
+				},
+				"0.6.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.6.1/obs-teleport.zip"
+						}
+					]
+				},
+				"0.6.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.6.0/obs-teleport.zip"
+						}
+					]
+				},
+				"0.5.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.5.0/obs-teleport.zip"
+						}
+					]
+				},
+				"0.4.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.4.2/obs-teleport.zip"
+						}
+					]
+				},
+				"0.4.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.4.1/obs-teleport.zip"
+						}
+					]
+				},
+				"0.4.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.4.0/obs-teleport.zip"
+						}
+					]
+				},
+				"0.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.3.0/obs-teleport.zip"
+						}
+					]
+				},
+				"0.2.4": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.2.4/obs-teleport.zip"
+						}
+					]
+				},
+				"0.2.3": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.2.3/obs-teleport.zip"
+						}
+					]
+				},
+				"0.2.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.2.2/obs-teleport.zip"
+						}
+					]
+				},
+				"0.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.2.1/obs-teleport.zip"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.2.0/obs-teleport.zip"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.1.1/obs-teleport.zip"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/fzwoch/obs-teleport/releases/download/0.1.0/obs-teleport.zip"
+						}
+					]
+				}
+			}
+		},
+		"advanced-scene-switcher": {
+			"name": "Advanced Scene Switcher",
+			"author": "WarmUpTill",
+			"homepage": "https://github.com/WarmUpTill/SceneSwitcher",
+			"versions": {
+				"1.21.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/WarmUpTill/SceneSwitcher/releases/download/1.21.0/advanced-scene-switcher-windows-x64.zip",
+							"sha256": "72f87d1f346cb8403aec0ad02f15e446c61f58d21582a8b161ecc852669ca174"
+						}
+					]
+				},
+				"1.20.4": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/WarmUpTill/SceneSwitcher/releases/download/1.20.4/advanced-scene-switcher-windows-x64.zip",
+							"sha256": "103e47f423dcd258b223d4052b0c9d97d8ae7f2ff1d7a6322a14e9f6949856c6"
+						}
+					]
+				}
+			}
+		},
+		"obs_scene_tree_view": {
+			"name": "Scene Tree View",
+			"author": "DigitOtter",
+			"homepage": "https://obsproject.com/forum/resources/scene-tree-folder-plugin-for-obs-studio.1500/",
+			"versions": {
+				"0.1.5": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/DigitOtter/obs_scene_tree_view/releases/download/v0.1.5/obs_scene_tree_view_win_v0_1_5.zip",
+							"sha256": "abafd2b24aef4a068278e559e71f24b4f56e827244b2ac3aea95dfdb925c04ff"
+						}
+					]
+				},
+				"0.1.4": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/DigitOtter/obs_scene_tree_view/releases/download/v0.1.4/obs_scene_tree_view_win_v0_1_4.zip",
+							"sha256": "91a7b1716cbb9211286c2998fef0ef990b016bdfc564f065e353794f8abbf42e"
+						}
+					]
+				}
+			}
+		},
+		"win-spout": {
+			"name": "Spout2 Plugin for OBS Studio",
+			"author": "Off-World-Live",
+			"homepage": "https://github.com/Off-World-Live/obs-spout2-plugin",
+			"versions": {
+				"1.8.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/Off-World-Live/obs-spout2-plugin/releases/download/v1.8/OBS_Spout2_Plugin_ManualInstall_v1.8.zip"
+						}
+					]
+				},
+				"1.5.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/Off-World-Live/obs-spout2-plugin/releases/download/v1.5/OBS_Spout2_Plugin_ManualInstall_v1.5-obs28.zip",
+							"sha256": "95072462753ac726a90a7b336243dd4adeb653bdc6c23872f79b1902c269647e"
+						}
+					]
+				}
+			}
+		},
+		"obs-face-tracker": {
+			"name": "OBS Face Tracker Plugin",
+			"author": "norihiro",
+			"homepage": "https://github.com/norihiro/obs-face-tracker",
+			"versions": {
+				"0.7.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://github.com/norihiro/obs-face-tracker/releases/download/0.7.0/obs-face-tracker-0.7.0-obs28-Windows.zip",
+							"sha256": "82ef69912ffa0e044882a436d1e8d866411f8120d0ea372e291ceba60e881b6e"
+						}
+					]
+				}
+			}
+		},
+		"scale-to-sound": {
+			"name": "Scale To Sound",
+			"author": "Qufy",
+			"homepage": "https://obsproject.com/forum/resources/scale-to-sound.1336/",
+			"versions": {
+				"1.2.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/scale-to-sound.1336/version/4448/download?file=86698",
+							"sha256": "046e239a4009d8c7c7d8bca68b9525cbb439d53d4b7a03f991dc3091a3fdbea7"
+						}
+					]
+				}
+			}
+		},
+		"directory-watch-media": {
+			"name": "Directory watch media",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/0/801.jpg?1588235346",
+			"homepage": "https://obsproject.com/forum/resources/directory-watch-media.801",
+			"versions": {
+				"0.6.2": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/4826/download?file=92803"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/4826/download?file=92804"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/4826/download?file=92806"
+						}
+					]
+				},
+				"0.6.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/4096/download?file=81703"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/4096/download?file=81704"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/4096/download?file=81705"
+						}
+					]
+				},
+				"0.5.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/3036/download?file=66028"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/3036/download?file=66029"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/3036/download?file=66030"
+						}
+					]
+				},
+				"0.5.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/3035/download?file=66024"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/3035/download?file=66025"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/3035/download?file=66026"
+						}
+					]
+				},
+				"0.5.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/3021/download?file=65842"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/3021/download?file=65843"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/3021/download?file=65844"
+						}
+					]
+				},
+				"0.5.0": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2879/download?file=63419"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2879/download?file=63420"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2879/download?file=63421"
+						}
+					]
+				},
+				"0.4.0": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2771/download?file=61397"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2771/download?file=61398"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2771/download?file=61399"
+						}
+					]
+				},
+				"0.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2513/download?file=57298"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2513/download?file=57299"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2513/download?file=57300"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2513/download?file=57301"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2430/download?file=56376"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2430/download?file=56377"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2430/download?file=56378"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2430/download?file=56379"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2110/download?file=49164"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/directory-watch-media.801/version/2110/download?file=49165"
+						}
+					]
+				}
+			}
+		},
+		"move-transition": {
+			"name": "Move transition",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/0/913.jpg?1585731355",
+			"homepage": "https://obsproject.com/forum/resources/move-transition.913",
+			"versions": {
+				"2.8.3": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4825/download?file=92798"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4825/download?file=92799"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4825/download?file=92801",
+							"sha256": "C6593AEE0E46C099426FFFB2F9C8195EA5302CBDBC2E12CD0464C20FE3774505"
+						}
+					]
+				},
+				"2.8.2": {
+					"files": [
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4804/download?file=92521"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4804/download?file=92522"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4804/download?file=92524"
+						}
+					]
+				},
+				"2.8.1": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4678/download?file=90287"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4678/download?file=90288"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4678/download?file=90290"
+						}
+					]
+				},
+				"2.8.0": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4636/download?file=89589"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4636/download?file=89590"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4636/download?file=89592"
+						}
+					]
+				},
+				"2.7.2": {
+					"files": [
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4597/download?file=89085"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4597/download?file=89086"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4597/download?file=89088"
+						}
+					]
+				},
+				"2.7.1": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4560/download?file=88391"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4560/download?file=88392"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4560/download?file=88394"
+						}
+					]
+				},
+				"2.7.0": {
+					"files": [
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4497/download?file=87467"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4497/download?file=87468"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4497/download?file=87470"
+						}
+					]
+				},
+				"2.6.4": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4477/download?file=87230"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4477/download?file=87231"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4477/download?file=87233"
+						}
+					]
+				},
+				"2.6.2": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4462/download?file=86904"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4462/download?file=86905"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4462/download?file=86906"
+						}
+					]
+				},
+				"2.6.1": {
+					"files": [
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4297/download?file=84806"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4297/download?file=84807"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4297/download?file=84808"
+						}
+					]
+				},
+				"2.6.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4296/download?file=84776"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4296/download?file=84777"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4296/download?file=84778"
+						}
+					]
+				},
+				"2.5.8": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4040/download?file=80290"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4040/download?file=80291"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4040/download?file=80292"
+						}
+					]
+				},
+				"2.5.7": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4015/download?file=79815"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4015/download?file=79816"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/4015/download?file=79817"
+						}
+					]
+				},
+				"2.5.6": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3985/download?file=79414"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3985/download?file=79415"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3985/download?file=79416"
+						}
+					]
+				},
+				"2.5.5": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3969/download?file=79221"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3969/download?file=79222"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3969/download?file=79223"
+						}
+					]
+				},
+				"2.5.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3949/download?file=78862"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3949/download?file=78863"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3949/download?file=78864"
+						}
+					]
+				},
+				"2.5.3": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3925/download?file=78580"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3925/download?file=78581"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3925/download?file=78582"
+						}
+					]
+				},
+				"2.5.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3727/download?file=75978"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3727/download?file=75979"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3727/download?file=75980"
+						}
+					]
+				},
+				"2.5.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3715/download?file=75709"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3715/download?file=75710"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3715/download?file=75711"
+						}
+					]
+				},
+				"2.5.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3626/download?file=74659"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3626/download?file=74660"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3626/download?file=74661"
+						}
+					]
+				},
+				"2.4.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3452/download?file=72429"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3452/download?file=72430"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3452/download?file=72431"
+						}
+					]
+				},
+				"2.4.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3439/download?file=72273"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3439/download?file=72274"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3439/download?file=72275"
+						}
+					]
+				},
+				"2.4.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3420/download?file=71990"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3420/download?file=71991"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3420/download?file=71992"
+						}
+					]
+				},
+				"2.4.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3364/download?file=71063"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3364/download?file=71064"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3364/download?file=71065"
+						}
+					]
+				},
+				"2.4.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3283/download?file=70032"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3283/download?file=70033"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3283/download?file=70034"
+						}
+					]
+				},
+				"2.3.5": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3221/download?file=68832"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3221/download?file=68833"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3221/download?file=68834"
+						}
+					]
+				},
+				"2.3.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3132/download?file=67442"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3132/download?file=67443"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3132/download?file=67444"
+						}
+					]
+				},
+				"2.3.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3127/download?file=67427"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3127/download?file=67428"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3127/download?file=67429"
+						}
+					]
+				},
+				"2.3.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3107/download?file=67020"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3107/download?file=67021"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3107/download?file=67022"
+						}
+					]
+				},
+				"2.3.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3049/download?file=66246"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3049/download?file=66247"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3049/download?file=66248"
+						}
+					]
+				},
+				"2.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3048/download?file=66210"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3048/download?file=66211"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/3048/download?file=66212"
+						}
+					]
+				},
+				"2.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2951/download?file=64837"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2951/download?file=64838"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2951/download?file=64839"
+						}
+					]
+				},
+				"2.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2923/download?file=64258"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2923/download?file=64259"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2923/download?file=64260"
+						}
+					]
+				},
+				"2.1.2": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2901/download?file=63760"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2901/download?file=63761"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2901/download?file=63762"
+						}
+					]
+				},
+				"2.1.1": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2899/download?file=63718"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2899/download?file=63719"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2899/download?file=63720"
+						}
+					]
+				},
+				"2.1.0": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2880/download?file=63424"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2880/download?file=63425"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2880/download?file=63426"
+						}
+					]
+				},
+				"2.0.2": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2869/download?file=63228"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2869/download?file=63229"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2869/download?file=63230"
+						}
+					]
+				},
+				"2.0.1": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2867/download?file=63156"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2867/download?file=63157"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2867/download?file=63159"
+						}
+					]
+				},
+				"2.0.0": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2860/download?file=63040"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2860/download?file=63041"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2860/download?file=63042"
+						}
+					]
+				},
+				"1.8.1": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2836/download?file=62613"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2836/download?file=62614"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2836/download?file=62616"
+						}
+					]
+				},
+				"1.8.0": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2822/download?file=62315"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2822/download?file=62316"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2822/download?file=62317"
+						}
+					]
+				},
+				"1.7.8": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2713/download?file=60709"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2713/download?file=60710"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2713/download?file=60711"
+						}
+					]
+				},
+				"1.7.7": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2684/download?file=60255"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2684/download?file=60256"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2684/download?file=60257"
+						}
+					]
+				},
+				"1.7.6": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2662/download?file=59766"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2662/download?file=59767"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2662/download?file=59768"
+						}
+					]
+				},
+				"1.7.5": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2653/download?file=59622"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2653/download?file=59623"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2653/download?file=59624"
+						}
+					]
+				},
+				"1.7.4": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2652/download?file=59603"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2652/download?file=59604"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2652/download?file=59605"
+						}
+					]
+				},
+				"1.7.3": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2616/download?file=58853"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2616/download?file=58854"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2616/download?file=58855"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2616/download?file=58856"
+						}
+					]
+				},
+				"1.7.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2595/download?file=58618"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2595/download?file=58619"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2595/download?file=58620"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2595/download?file=58621"
+						}
+					]
+				},
+				"1.7.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2575/download?file=58199"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2575/download?file=58200"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2575/download?file=58201"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2575/download?file=58202"
+						}
+					]
+				},
+				"1.7.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2570/download?file=58133"
+						},
+						{
+							"arch": [
+								"x64"
+							],
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2570/download?file=58134"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2570/download?file=58135"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2570/download?file=58136"
+						}
+					]
+				},
+				"1.6.5": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2565/download?file=58069"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2565/download?file=58070"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2565/download?file=58071"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2565/download?file=58072"
+						}
+					]
+				},
+				"1.6.4": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2557/download?file=57923"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2557/download?file=57924"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2557/download?file=57925"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2557/download?file=57926"
+						}
+					]
+				},
+				"1.6.3": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2554/download?file=57866"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2554/download?file=57867"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2554/download?file=57868"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2554/download?file=57869"
+						}
+					]
+				},
+				"1.6.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2549/download?file=57746"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2549/download?file=57747"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2549/download?file=57748"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2549/download?file=57749"
+						}
+					]
+				},
+				"1.6.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2531/download?file=57537"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2531/download?file=57538"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2531/download?file=57539"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2531/download?file=57540"
+						}
+					]
+				},
+				"1.6.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2520/download?file=57365"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2520/download?file=57366"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2520/download?file=57367"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2520/download?file=57368"
+						}
+					]
+				},
+				"1.5.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2507/download?file=57268"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2507/download?file=57269"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2507/download?file=57270"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2507/download?file=57271"
+						}
+					]
+				},
+				"1.5.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2467/download?file=56950"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2467/download?file=56951"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2467/download?file=56952"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2467/download?file=56953"
+						}
+					]
+				},
+				"1.4.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2431/download?file=56380"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2431/download?file=56381"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2431/download?file=56382"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2431/download?file=56383"
+						}
+					]
+				},
+				"1.3.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2424/download?file=56332"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2424/download?file=56333"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2424/download?file=56334"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2424/download?file=56335"
+						}
+					]
+				},
+				"1.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2423/download?file=56328"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2423/download?file=56329"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2423/download?file=56330"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2423/download?file=56331"
+						}
+					]
+				},
+				"1.2.8": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2416/download?file=56256"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2416/download?file=56257"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2416/download?file=56258"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2416/download?file=56259"
+						}
+					]
+				},
+				"1.2.7": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2408/download?file=56096"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2408/download?file=56097"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2408/download?file=56098"
+						}
+					]
+				},
+				"1.2.6": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2397/download?file=55936"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2397/download?file=55937"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2397/download?file=55938"
+						}
+					]
+				},
+				"1.2.5": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2381/download?file=55705"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2381/download?file=55706"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2381/download?file=55707"
+						}
+					]
+				},
+				"1.2.4": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2349/download?file=55237"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2349/download?file=55238"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2349/download?file=55239"
+						}
+					]
+				},
+				"1.2.3": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2342/download?file=55065"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2342/download?file=55066"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2342/download?file=55067"
+						}
+					]
+				},
+				"1.2.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2340/download?file=55022"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2340/download?file=55023"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2340/download?file=55024"
+						}
+					]
+				},
+				"1.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2331/download?file=54831"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2331/download?file=54832"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2331/download?file=54833"
+						}
+					]
+				},
+				"1.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2328/download?file=54728"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2328/download?file=54729"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2328/download?file=54730"
+						}
+					]
+				},
+				"1.1.4": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2318/download?file=54532"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2318/download?file=54533"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2318/download?file=54534"
+						}
+					]
+				},
+				"1.1.3": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2315/download?file=54481"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2315/download?file=54482"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2315/download?file=54483"
+						}
+					]
+				},
+				"1.1.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2309/download?file=54288"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2309/download?file=54289"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2309/download?file=54290"
+						}
+					]
+				},
+				"1.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2297/download?file=53997"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2297/download?file=53998"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2297/download?file=53999"
+						}
+					]
+				},
+				"1.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2295/download?file=53956"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2295/download?file=53957"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/move-transition.913/version/2295/download?file=53958"
+						}
+					]
+				}
+			}
+		},
+		"source-dock": {
+			"name": "Source Dock",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1317.jpg?1625310871",
+			"homepage": "https://obsproject.com/forum/resources/source-dock.1317",
+			"versions": {
+				"0.3.5": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4803/download?file=92515"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4803/download?file=92516"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4803/download?file=92518"
+						}
+					]
+				},
+				"0.3.4": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4646/download?file=89698"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4646/download?file=89699"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4646/download?file=89701"
+						}
+					]
+				},
+				"0.3.3": {
+					"files": [
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4388/download?file=85961"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4388/download?file=85962"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4388/download?file=85963"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/4388/download?file=85965"
+						}
+					]
+				},
+				"0.3.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3987/download?file=79452"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3987/download?file=79453"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3987/download?file=79454"
+						}
+					]
+				},
+				"0.3.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3966/download?file=79136"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3966/download?file=79137"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3966/download?file=79138"
+						}
+					]
+				},
+				"0.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3964/download?file=79105"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3964/download?file=79106"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3964/download?file=79107"
+						}
+					]
+				},
+				"0.2.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3952/download?file=78908"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3952/download?file=78909"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3952/download?file=78910"
+						}
+					]
+				},
+				"0.2.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3937/download?file=78702"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3937/download?file=78704"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3937/download?file=78705"
+						}
+					]
+				},
+				"0.2.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3908/download?file=78324"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3908/download?file=78325"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3908/download?file=78326"
+						}
+					]
+				},
+				"0.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3899/download?file=78187"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3899/download?file=78188"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3899/download?file=78189"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3898/download?file=78179"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3898/download?file=78181"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3898/download?file=78182"
+						}
+					]
+				},
+				"0.1.7": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3818/download?file=77065"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3818/download?file=77066"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3818/download?file=77067"
+						}
+					]
+				},
+				"0.1.6": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3790/download?file=76682"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3790/download?file=76683"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3790/download?file=76684"
+						}
+					]
+				},
+				"0.1.5": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3722/download?file=75830"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3722/download?file=75831"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3722/download?file=75832"
+						}
+					]
+				},
+				"0.1.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3706/download?file=75585"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3706/download?file=75586"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3706/download?file=75587"
+						}
+					]
+				},
+				"0.1.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3583/download?file=74258"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3583/download?file=74260"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3583/download?file=74261"
+						}
+					]
+				},
+				"0.1.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3560/download?file=73836"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3560/download?file=73837"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3560/download?file=73838"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3487/download?file=73075"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3487/download?file=73076"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3487/download?file=73077"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3485/download?file=73059"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3485/download?file=73060"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3485/download?file=73061"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3481/download?file=72932"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3481/download?file=72933"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-dock.1317/version/3481/download?file=72934"
+						}
+					]
+				}
+			}
+		},
+		"3d-effect": {
+			"name": "3D Effect",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1692.jpg?1678810185",
+			"homepage": "https://obsproject.com/forum/resources/3d-effect.1692",
+			"versions": {
+				"0.0.2": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/3d-effect.1692/version/4802/download?file=92511"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/3d-effect.1692/version/4802/download?file=92512"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/3d-effect.1692/version/4802/download?file=92514"
+						}
+					]
+				}
+			}
+		},
+		"source-clone": {
+			"name": "Source Clone",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1632.jpg?1668931044",
+			"homepage": "https://obsproject.com/forum/resources/source-clone.1632",
+			"versions": {
+				"0.1.2": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-clone.1632/version/4789/download?file=92372"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-clone.1632/version/4789/download?file=92373"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-clone.1632/version/4789/download?file=92375"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-clone.1632/version/4609/download?file=89221"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-clone.1632/version/4609/download?file=89222"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-clone.1632/version/4609/download?file=89224"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-clone.1632/version/4598/download?file=89116"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-clone.1632/version/4598/download?file=89117"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-clone.1632/version/4598/download?file=89119"
+						}
+					]
+				}
+			}
+		},
+		"source-record": {
+			"name": "Source Record",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1285.jpg?1620909034",
+			"homepage": "https://obsproject.com/forum/resources/source-record.1285",
+			"versions": {
+				"0.3.2": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/4683/download?file=90347"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/4683/download?file=90348"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/4683/download?file=90350"
+						}
+					]
+				},
+				"0.3.1": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/4581/download?file=88757"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/4581/download?file=88758"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/4581/download?file=88760"
+						}
+					]
+				},
+				"0.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/4081/download?file=81308"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/4081/download?file=81309"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/4081/download?file=81310"
+						}
+					]
+				},
+				"0.2.7": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3998/download?file=79614"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3998/download?file=79615"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3998/download?file=79616"
+						}
+					]
+				},
+				"0.2.6": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3726/download?file=75972"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3726/download?file=75974"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3726/download?file=75975"
+						}
+					]
+				},
+				"0.2.5": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3578/download?file=74160"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3578/download?file=74161"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3578/download?file=74162"
+						}
+					]
+				},
+				"0.2.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3573/download?file=74126"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3573/download?file=74128"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3573/download?file=74129"
+						}
+					]
+				},
+				"0.2.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3538/download?file=73533"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3538/download?file=73534"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3538/download?file=73535"
+						}
+					]
+				},
+				"0.2.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3489/download?file=73098"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3489/download?file=73099"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3489/download?file=73100"
+						}
+					]
+				},
+				"0.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3476/download?file=72763"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3476/download?file=72764"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3476/download?file=72765"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3434/download?file=72154"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3434/download?file=72155"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3434/download?file=72156"
+						}
+					]
+				},
+				"0.1.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3382/download?file=71229"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3382/download?file=71230"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3382/download?file=71231"
+						}
+					]
+				},
+				"0.1.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3377/download?file=71177"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3377/download?file=71179"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3377/download?file=71180"
+						}
+					]
+				},
+				"0.1.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3375/download?file=71156"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3375/download?file=71157"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3375/download?file=71158"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3372/download?file=71120"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3372/download?file=71121"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3372/download?file=71122"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3369/download?file=71096"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3369/download?file=71097"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-record.1285/version/3369/download?file=71098"
+						}
+					]
+				}
+			}
+		},
+		"browser-transition": {
+			"name": "Browser Transition",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1653.jpg?1672431265",
+			"homepage": "https://obsproject.com/forum/resources/browser-transition.1653",
+			"versions": {
+				"0.1.0": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/browser-transition.1653/version/4673/download?file=90169"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/browser-transition.1653/version/4673/download?file=90170"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/browser-transition.1653/version/4673/download?file=90172"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/browser-transition.1653/version/4670/download?file=90162"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/browser-transition.1653/version/4670/download?file=90163"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/browser-transition.1653/version/4670/download?file=90165"
+						}
+					]
+				}
+			}
+		},
+		"source-copy": {
+			"name": "Source Copy",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1261.jpg?1618671405",
+			"homepage": "https://obsproject.com/forum/resources/source-copy.1261",
+			"versions": {
+				"0.2.2": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4663/download?file=89990"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4663/download?file=89991"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4663/download?file=89993"
+						}
+					]
+				},
+				"0.2.1": {
+					"files": [
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4391/download?file=85997"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4391/download?file=85998"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4391/download?file=85999"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4391/download?file=86001"
+						}
+					]
+				},
+				"0.1.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4071/download?file=81021"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4071/download?file=81022"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/4071/download?file=81023"
+						}
+					]
+				},
+				"0.1.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/3410/download?file=71876"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/3410/download?file=71877"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/3410/download?file=71878"
+						}
+					]
+				},
+				"0.1.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/3407/download?file=71814"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/3407/download?file=71815"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/3407/download?file=71816"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/3300/download?file=70210"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/3300/download?file=70211"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-copy.1261/version/3300/download?file=70212"
+						}
+					]
+				}
+			}
+		},
+		"transition-table": {
+			"name": "Transition Table",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1174.jpg?1609583057",
+			"homepage": "https://obsproject.com/forum/resources/transition-table.1174",
+			"versions": {
+				"0.2.6": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4638/download?file=89612"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4638/download?file=89613"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4638/download?file=89615"
+						}
+					]
+				},
+				"0.2.5": {
+					"files": [
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4387/download?file=85966"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64",
+								"x64",
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4387/download?file=85967"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4387/download?file=85968"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4387/download?file=85970"
+						}
+					]
+				},
+				"0.2.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4048/download?file=80589"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4048/download?file=80590"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/4048/download?file=80591"
+						}
+					]
+				},
+				"0.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3513/download?file=73266"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3513/download?file=73268"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3513/download?file=73269"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3482/download?file=72969"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3482/download?file=72970"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3482/download?file=72971"
+						}
+					]
+				},
+				"0.1.5": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3217/download?file=68708"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3217/download?file=68710"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3217/download?file=68711"
+						}
+					]
+				},
+				"0.1.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3179/download?file=68083"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3179/download?file=68085"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3179/download?file=68086"
+						}
+					]
+				},
+				"0.1.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3051/download?file=66261"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3051/download?file=66262"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/3051/download?file=66263"
+						}
+					]
+				},
+				"0.1.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/2993/download?file=65421"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/2993/download?file=65422"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/2993/download?file=65423"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/2983/download?file=65335"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/2983/download?file=65336"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/transition-table.1174/version/2983/download?file=65337"
+						}
+					]
+				}
+			}
+		},
+		"dynamic-delay": {
+			"name": "Dynamic Delay",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1035.jpg?1594311601",
+			"homepage": "https://obsproject.com/forum/resources/dynamic-delay.1035",
+			"versions": {
+				"0.1.4": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/4615/download?file=89291"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/4615/download?file=89292"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/4615/download?file=89294"
+						}
+					]
+				},
+				"0.1.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/4069/download?file=80951"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/4069/download?file=80952"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/4069/download?file=80953"
+						}
+					]
+				},
+				"0.1.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/3129/download?file=67434"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/3129/download?file=67435"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/3129/download?file=67436"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/3080/download?file=66693"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/3080/download?file=66695"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/3080/download?file=66696"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/2699/download?file=60527"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/2699/download?file=60528"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/2699/download?file=60529"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/2608/download?file=58771"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/2608/download?file=58772"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/2608/download?file=58773"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/dynamic-delay.1035/version/2608/download?file=58774"
+						}
+					]
+				}
+			}
+		},
+		"source-switcher": {
+			"name": "Source Switcher",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/0/941.jpg?1588234904",
+			"homepage": "https://obsproject.com/forum/resources/source-switcher.941",
+			"versions": {
+				"0.4.1": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/4612/download?file=89272"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/4612/download?file=89273"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/4612/download?file=89275"
+						}
+					]
+				},
+				"0.4.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/4046/download?file=80409"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/4046/download?file=80410"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/4046/download?file=80411"
+						}
+					]
+				},
+				"0.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/3349/download?file=70931"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/3349/download?file=70932"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/3349/download?file=70933"
+						}
+					]
+				},
+				"0.2.8": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/3183/download?file=68183"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/3183/download?file=68184"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/3183/download?file=68185"
+						}
+					]
+				},
+				"0.2.7": {
+					"files": [
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2757/download?file=61237"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2757/download?file=61238"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2757/download?file=61239"
+						}
+					]
+				},
+				"0.2.6": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2746/download?file=61101"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2746/download?file=61102"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2746/download?file=61103"
+						}
+					]
+				},
+				"0.2.5": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2647/download?file=59559"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2647/download?file=59560"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2647/download?file=59561"
+						}
+					]
+				},
+				"0.2.4": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2402/download?file=55991"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2402/download?file=55992"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2402/download?file=55993"
+						}
+					]
+				},
+				"0.2.3": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2389/download?file=55805"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2389/download?file=55806"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2389/download?file=55807"
+						}
+					]
+				},
+				"0.2.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2388/download?file=55798"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2388/download?file=55799"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2388/download?file=55800"
+						}
+					]
+				},
+				"0.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2384/download?file=55712"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2384/download?file=55713"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2384/download?file=55714"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2373/download?file=55572"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2373/download?file=55573"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2373/download?file=55574"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2358/download?file=55389"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2358/download?file=55390"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/source-switcher.941/version/2358/download?file=55391"
+						}
+					]
+				}
+			}
+		},
+		"recursion-effect": {
+			"name": "Recursion Effect",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1008.jpg?1591880525",
+			"homepage": "https://obsproject.com/forum/resources/recursion-effect.1008",
+			"versions": {
+				"0.0.5": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/4606/download?file=89200"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/4606/download?file=89201"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/4606/download?file=89203"
+						}
+					]
+				},
+				"0.0.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/3928/download?file=78613"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/3928/download?file=78615"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/3928/download?file=78616"
+						}
+					]
+				},
+				"0.0.3": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/2591/download?file=58542"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/2591/download?file=58543"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/2591/download?file=58544"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/2591/download?file=58545"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/2537/download?file=57624"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/2537/download?file=57625"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/2537/download?file=57626"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/recursion-effect.1008/version/2537/download?file=57627"
+						}
+					]
+				}
+			}
+		},
+		"gradient-source": {
+			"name": "Gradient Source",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1172.jpg?1609488324",
+			"homepage": "https://obsproject.com/forum/resources/gradient-source.1172",
+			"versions": {
+				"0.3.1": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/4605/download?file=89171"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/4605/download?file=89172"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/4605/download?file=89174"
+						}
+					]
+				},
+				"0.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/3926/download?file=78594"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/3926/download?file=78596"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/3926/download?file=78597"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/3406/download?file=71806"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/3406/download?file=71807"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/3406/download?file=71808"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/2995/download?file=65468"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/2995/download?file=65469"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/2995/download?file=65470"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/2981/download?file=65313"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/2981/download?file=65314"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/gradient-source.1172/version/2981/download?file=65315"
+						}
+					]
+				}
+			}
+		},
+		"time-warp-scan": {
+			"name": "Time Warp Scan",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1167.jpg?1608901415",
+			"homepage": "https://obsproject.com/forum/resources/time-warp-scan.1167",
+			"versions": {
+				"0.1.7": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/4604/download?file=89167"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/4604/download?file=89168"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/4604/download?file=89170"
+						}
+					]
+				},
+				"0.1.6": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/3475/download?file=72758"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/3475/download?file=72759"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/3475/download?file=72760"
+						}
+					]
+				},
+				"0.1.5": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/3020/download?file=65831"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/3020/download?file=65832"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/3020/download?file=65833"
+						}
+					]
+				},
+				"0.1.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2999/download?file=65507"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2999/download?file=65508"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2999/download?file=65509"
+						}
+					]
+				},
+				"0.1.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2985/download?file=65339"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2985/download?file=65340"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2985/download?file=65341"
+						}
+					]
+				},
+				"0.1.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2971/download?file=65176"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2971/download?file=65177"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2971/download?file=65178"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2967/download?file=65111"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2967/download?file=65113"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2967/download?file=65114"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2964/download?file=65080"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2964/download?file=65081"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/time-warp-scan.1167/version/2964/download?file=65082"
+						}
+					]
+				}
+			}
+		},
+		"freeze-filter": {
+			"name": "Freeze Filter",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/0/950.jpg?1588777351",
+			"homepage": "https://obsproject.com/forum/resources/freeze-filter.950",
+			"versions": {
+				"0.3.3": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/4603/download?file=89158"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/4603/download?file=89159"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/4603/download?file=89161"
+						}
+					]
+				},
+				"0.3.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/3026/download?file=65907"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/3026/download?file=65908"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/3026/download?file=65909"
+						}
+					]
+				},
+				"0.3.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2921/download?file=64211"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2921/download?file=64212"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2921/download?file=64213"
+						}
+					]
+				},
+				"0.3.0": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2906/download?file=63844"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2906/download?file=63845"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2906/download?file=63846"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2691/download?file=60392"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2691/download?file=60393"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2691/download?file=60394"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2451/download?file=56656"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2451/download?file=56657"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2451/download?file=56658"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2451/download?file=56659"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2374/download?file=55593"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2374/download?file=55594"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2374/download?file=55595"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2366/download?file=55457"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2366/download?file=55458"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/freeze-filter.950/version/2366/download?file=55459"
+						}
+					]
+				}
+			}
+		},
+		"audio-monitor": {
+			"name": "Audio Monitor",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1186.jpg?1611065449",
+			"homepage": "https://obsproject.com/forum/resources/audio-monitor.1186",
+			"versions": {
+				"0.8.2": {
+					"files": [
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/4602/download?file=89141"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/4602/download?file=89143"
+						}
+					]
+				},
+				"0.8.1": {
+					"files": [
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/4384/download?file=85981"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/4384/download?file=85982"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/4384/download?file=85983"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/4384/download?file=85985"
+						}
+					]
+				},
+				"0.8.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/4033/download?file=80152"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/4033/download?file=80153"
+						}
+					]
+				},
+				"0.7.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3196/download?file=68486"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3196/download?file=68487"
+						}
+					]
+				},
+				"0.7.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3188/download?file=68266"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3188/download?file=68267"
+						}
+					]
+				},
+				"0.6.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3163/download?file=67839"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3163/download?file=67840"
+						}
+					]
+				},
+				"0.6.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3158/download?file=67821"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3158/download?file=67822"
+						}
+					]
+				},
+				"0.5.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3137/download?file=67545"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3137/download?file=67546"
+						}
+					]
+				},
+				"0.4.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3128/download?file=67430"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3128/download?file=67432"
+						}
+					]
+				},
+				"0.4.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3126/download?file=67424"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3126/download?file=67425"
+						}
+					]
+				},
+				"0.3.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3124/download?file=67353"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3124/download?file=67354"
+						}
+					]
+				},
+				"0.3.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3123/download?file=67317"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3123/download?file=67318"
+						}
+					]
+				},
+				"0.3.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3115/download?file=67202"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3115/download?file=67204"
+						}
+					]
+				},
+				"0.3.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3114/download?file=67163"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3114/download?file=67164"
+						}
+					]
+				},
+				"0.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3101/download?file=66946"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3101/download?file=66948"
+						}
+					]
+				},
+				"0.2.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3096/download?file=66844"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3096/download?file=66846"
+						}
+					]
+				},
+				"0.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3095/download?file=66841"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3095/download?file=66843"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3088/download?file=66776"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3088/download?file=66778"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3052/download?file=66320"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3052/download?file=66321"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3047/download?file=66207"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/audio-monitor.1186/version/3047/download?file=66208"
+						}
+					]
+				}
+			}
+		},
+		"downstream-keyer": {
+			"name": "Downstream Keyer",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1254.jpg?1618147256",
+			"homepage": "https://obsproject.com/forum/resources/downstream-keyer.1254",
+			"versions": {
+				"0.2.6": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4588/download?file=88953"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4588/download?file=88954"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4588/download?file=88956"
+						}
+					]
+				},
+				"0.2.5": {
+					"files": [
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4386/download?file=85971"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4386/download?file=85972"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4386/download?file=85973"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4386/download?file=85975"
+						}
+					]
+				},
+				"0.2.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4225/download?file=83849"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4225/download?file=83850"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4225/download?file=83851"
+						}
+					]
+				},
+				"0.2.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4079/download?file=81226"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4079/download?file=81227"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4079/download?file=81228"
+						}
+					]
+				},
+				"0.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3635/download?file=74747"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3635/download?file=74748"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3635/download?file=74749"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3514/download?file=73271"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3514/download?file=73272"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3514/download?file=73273"
+						}
+					]
+				},
+				"0.1.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3294/download?file=70172"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3294/download?file=70173"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3294/download?file=70174"
+						}
+					]
+				},
+				"0.1.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3293/download?file=70164"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3293/download?file=70166"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3293/download?file=70167"
+						}
+					]
+				},
+				"0.1.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3290/download?file=70136"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3290/download?file=70138"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3290/download?file=70139"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3287/download?file=70097"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3287/download?file=70098"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3287/download?file=70099"
+						}
+					]
+				},
+				"0.0.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3280/download?file=69959"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3280/download?file=69961"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3280/download?file=69962"
+						}
+					]
+				},
+				"0.0.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3278/download?file=69938"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3278/download?file=69939"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3278/download?file=69940"
+						}
+					]
+				}
+			}
+		},
+		"replay-source": {
+			"name": "Replay Source",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/0/686.jpg?1528892406",
+			"homepage": "https://obsproject.com/forum/resources/replay-source.686",
+			"versions": {
+				"1.6.11": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/4441/download?file=86661"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/4441/download?file=86662"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/4441/download?file=86664"
+						}
+					]
+				},
+				"1.6.10": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/4089/download?file=81603"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/4089/download?file=81604"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/4089/download?file=81605"
+						}
+					]
+				},
+				"1.6.9": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/3441/download?file=72287"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/3441/download?file=72288"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/3441/download?file=72289"
+						}
+					]
+				},
+				"1.6.8": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/3007/download?file=65648"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/3007/download?file=65649"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/3007/download?file=65650"
+						}
+					]
+				},
+				"1.6.7": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2908/download?file=63857"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2908/download?file=63858"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2908/download?file=63859"
+						}
+					]
+				},
+				"1.6.6": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2859/download?file=63006"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2859/download?file=63007"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2859/download?file=63008"
+						}
+					]
+				},
+				"1.6.5": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2728/download?file=60861"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2728/download?file=60862"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2728/download?file=60864"
+						}
+					]
+				},
+				"1.6.4": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2620/download?file=58939"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2620/download?file=58940"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2620/download?file=58941"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2620/download?file=58942"
+						}
+					]
+				},
+				"1.6.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2403/download?file=55994"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2403/download?file=55995"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2403/download?file=55996"
+						}
+					]
+				},
+				"1.6.1": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2390/download?file=55808"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2390/download?file=55809"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2390/download?file=55810"
+						}
+					]
+				},
+				"1.6.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2382/download?file=55708"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2382/download?file=55709"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/replay-source.686/version/2382/download?file=55710"
+						}
+					]
+				}
+			}
+		},
+		"scene-collection-manager": {
+			"name": "Scene Collection Manager",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1434.jpg?1640629373",
+			"homepage": "https://obsproject.com/forum/resources/scene-collection-manager.1434",
+			"versions": {
+				"0.0.8": {
+					"files": [
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4390/download?file=85992"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4390/download?file=85993"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4390/download?file=85994"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4390/download?file=85996"
+						}
+					]
+				},
+				"0.0.6": {
+					"files": [
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4229/download?file=83908"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4229/download?file=83909"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4229/download?file=83910"
+						}
+					]
+				},
+				"0.0.5": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4174/download?file=83093"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4174/download?file=83094"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4174/download?file=83095"
+						}
+					]
+				},
+				"0.0.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3992/download?file=79507"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3992/download?file=79508"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3992/download?file=79509"
+						}
+					]
+				},
+				"0.0.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3958/download?file=78967"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3958/download?file=78968"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3958/download?file=78969"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3919/download?file=78481"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3919/download?file=78483"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3919/download?file=78484"
+						}
+					]
+				}
+			}
+		},
+		"media-controls": {
+			"name": "Media Controls",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1032.jpg?1594026278",
+			"homepage": "https://obsproject.com/forum/resources/media-controls.1032",
+			"versions": {
+				"0.3.6": {
+					"files": [
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/4389/download?file=85987"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/4389/download?file=85988"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/4389/download?file=85989"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/4389/download?file=85991"
+						}
+					]
+				},
+				"0.3.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3333/download?file=70771"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3333/download?file=70773"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3333/download?file=70774"
+						}
+					]
+				},
+				"0.3.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3331/download?file=70766"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3331/download?file=70768"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3331/download?file=70769"
+						}
+					]
+				},
+				"0.3.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3184/download?file=68191"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3184/download?file=68193"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3184/download?file=68194"
+						}
+					]
+				},
+				"0.3.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3079/download?file=66689"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3079/download?file=66691"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/3079/download?file=66692"
+						}
+					]
+				},
+				"0.3.0": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2779/download?file=61505"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2779/download?file=61506"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2779/download?file=61507"
+						}
+					]
+				},
+				"0.2.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2673/download?file=59988"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2673/download?file=59989"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2673/download?file=59990"
+						}
+					]
+				},
+				"0.2.1": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2664/download?file=59800"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2664/download?file=59801"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2664/download?file=59802"
+						}
+					]
+				},
+				"0.2.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2615/download?file=58841"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2615/download?file=58842"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2615/download?file=58843"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2615/download?file=58844"
+						}
+					]
+				},
+				"0.1.0": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2613/download?file=58810"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2613/download?file=58811"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2613/download?file=58812"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2613/download?file=58813"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "windows",
+							"arch": [
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2609/download?file=58775"
+						},
+						{
+							"os": "windows",
+							"arch": [
+								"x64"
+							],
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2609/download?file=58776"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2609/download?file=58777"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/media-controls.1032/version/2609/download?file=58778"
+						}
+					]
+				}
+			}
+		},
+		"scene-notes-dock": {
+			"name": "Scene Notes Dock",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1398.jpg?1636996813",
+			"homepage": "https://obsproject.com/forum/resources/scene-notes-dock.1398",
+			"versions": {
+				"0.1.1": {
+					"files": [
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86"
+							],
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/4385/download?file=85976"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"x64",
+								"x86",
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/4385/download?file=85977"
+						},
+						{
+							"os": "mac",
+							"arch": [
+								"arm64"
+							],
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/4385/download?file=85978"
+						},
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/4385/download?file=85980"
+						}
+					]
+				},
+				"0.0.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/4036/download?file=80201"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/4036/download?file=80202"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/4036/download?file=80203"
+						}
+					]
+				},
+				"0.0.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/3938/download?file=78706"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/3938/download?file=78708"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/3938/download?file=78709"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/3918/download?file=78470"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/3918/download?file=78472"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/3918/download?file=78473"
+						}
+					]
+				}
+			}
+		},
+		"virtual-cam-filter": {
+			"name": "Virtual Cam Filter",
+			"author": "Exeldro",
+			"icon": "https://obsproject.com/forum/data/resource_icons/1/1142.jpg?1605976385",
+			"homepage": "https://obsproject.com/forum/resources/virtual-cam-filter.1142",
+			"versions": {
+				"0.0.6": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/4086/download?file=81519"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/4086/download?file=81520"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/4086/download?file=81521"
+						}
+					]
+				},
+				"0.0.5": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/4031/download?file=80125"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/4031/download?file=80126"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/4031/download?file=80127"
+						}
+					]
+				},
+				"0.0.4": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/3318/download?file=70649"
+						},
+						{
+							"os": "linux",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/3318/download?file=70650"
+						},
+						{
+							"os": "mac",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/3318/download?file=70651"
+						}
+					]
+				},
+				"0.0.3": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/3263/download?file=69801"
+						}
+					]
+				},
+				"0.0.2": {
+					"files": [
+						{
+							"os": "windows",
+							"url": "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/3161/download?file=67828"
+						}
+					]
+				}
+			}
+		}
+	}
+}

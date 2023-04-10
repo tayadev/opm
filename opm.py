@@ -1,172 +1,202 @@
-import typer
-from os.path import join, isdir, exists, basename
-from os import listdir, mkdir
-import json
+import io
+from os import getenv, mkdir, path, listdir, makedirs
+import shutil
+import tomllib
+import sys
+from typing import Optional
+import zipfile
+from platformdirs import PlatformDirs, user_config_dir, user_data_dir, site_data_dir
+app_dirs = PlatformDirs("ObsPluginManager", False)
 from rich.table import Table
+from rich.progress import Progress
+from rich.prompt import Confirm
 from rich.console import Console
 console = Console()
-from bullet import Bullet, colors
-from rich.prompt import Confirm
-import shutil
-import requests
-from rich.progress import Progress
-import hashlib
-import zipfile
-import io
-from typing import Optional
-
+import typer
 app = typer.Typer()
-pluginsDir = 'C:\ProgramData\obs-studio\plugins'
+import json
+import requests
+import hashlib
 
+# TODO: Advise user to close obs if process is found to be currently open
+
+# Load config from file or fall back to defaults
+config = {
+  'obs_plugin_path':
+    sys.platform == 'win32' and 'C:\ProgramData\obs-studio\plugins' or
+    sys.platform == 'linux' and path.join(user_config_dir('obs-studio'), 'plugins') or
+    sys.platform == 'darwin' and path.join(site_data_dir('obs-studio'), 'plugins')
+}
+
+config_path = getenv('OPM_CONFIG') or path.join(app_dirs.user_config_path, 'config.toml')
+
+if path.exists(config_path):
+  with open(config_path, 'rb') as f:
+    config = config | tomllib.load(f)
+
+# Load plugin repository data
+# TODO: make repo data synced from configurable remote
+# TODO: validate repo data client side to avoid format mismatch before proceeding
 pluginRepo = None
-with open('plugins.json') as f:
-    pluginRepo = json.loads(f.read())
+with open("repo.json") as f:
+  pluginRepo = json.load(f)
 
-def downloadAndVerify(url, expected_checksum):
-    r = requests.get(url, stream=True)
-
-    file = b''
-    with Progress() as p:
-        dl_task = p.add_task("Downloading")
-        p.update(dl_task, total=int(r.headers.get('content-length', 0)))
-        for chunk in r.iter_content(32 * 1024):
-            if chunk:
-                file += chunk
-                p.advance(dl_task, len(chunk))
-
-    hash_sha256 = hashlib.sha256()
-    hash_sha256.update(file)
-    checksum = hash_sha256.hexdigest()
-    if checksum != expected_checksum:
-        print(f'Checksum {checksum} invalid, exiting')
-        exit(1)
-
-    return file
-
-@app.command()
-def info(plugin: str):
-    plugin = pluginRepo[plugin]
-    console.print(plugin)
+# Setup cli commands
 
 @app.command("list")
 @app.command("ls")
-def ls(remote: bool = False):
-    table = Table(title="Installed Plugins")
+def ls():
+  table = Table(title=("Installed Plugins"))
 
-    table.add_column("Name", style="cyan", no_wrap=True)
-    table.add_column("Author", style="magenta")
-    table.add_column("Version", style="green")
-    table.add_column("Id", style="bright_black")
+  table.add_column("Name", style="cyan", no_wrap=True)
+  table.add_column("Author", style="magenta")
+  table.add_column("Version", style="green")
+  table.add_column("Id", style="bright_black")
 
-    if not remote:
-        for filename in listdir(pluginsDir):
-            file = join(pluginsDir, filename)
-            if isdir(file):
-                if exists(join(file, 'version.txt')):
-                    with open(join(file, 'version.txt')) as f:
-                        version = f.read()
-                        plugin = pluginRepo[filename]
-                        table.add_row(plugin['name'], plugin['author'], version, filename)
-                else:
-                    table.add_row(f"[bright_black]{filename}", None, None, filename)
-    else:
-        for pluginId in pluginRepo:
-            plugin = pluginRepo[pluginId]
-            table.add_row(plugin['name'], plugin['author'], list(plugin['versions'].keys())[0], pluginId)
-    console.print(table)
+  if not path.isdir(config['obs_plugin_path']):
+    console.print('[red]Plugin Directory doesn\'t exist or is misconfigured')
+    return
+  
+  installed_plugin_folders = listdir(config['obs_plugin_path'])
+  if len(installed_plugin_folders) == 0:
+    console.print('[yellow]No Plugins installed')
+    return
 
-@app.command()
-@app.command("rm")
-@app.command("del")
-def uninstall(plugin: Optional[str] = typer.Argument(None)):
-    if not plugin:
-        installed = [pluginRepo[p]['name'] for p in listdir(pluginsDir) if p in pluginRepo]
-        if len(installed) == 0:
-            console.print('No plugins installed')
-            return
-        console.print("Select a plugin to uninstall:")
-        cli = Bullet(
-            choices = installed,
-            margin = 1,
-            background_color = "",
-            background_on_switch = "",
-            word_on_switch=colors.bright(colors.foreground["red"]),
-            bullet = "❌"
-        )
-        answer = cli.launch()
-        plugin = [p for p in pluginRepo if pluginRepo[p]['name'] == answer][0]
+  for filename in installed_plugin_folders:
+    file = path.join(config['obs_plugin_path'], filename)
+    if path.isdir(file):
+      if path.exists(path.join(file, "version.txt")):
+        with open(path.join(file, "version.txt")) as f:
+          version = f.read()
+          plugin = pluginRepo['plugins'][filename]
+          table.add_row(
+            str(plugin['name']),
+            str(plugin['author']),
+            version, 
+            filename
+          )
+      else:
+        table.add_row(f"[bright_black]{filename}", None, None, filename)
+  console.print(table)
 
-    if not plugin in pluginRepo:
-        console.print(f"[red]Plugin {plugin} not installed")
-        return
-    
-    pluginName = pluginRepo[plugin]['name']
-    if not Confirm.ask(f"[red]Uninstall[/red] {pluginName}?"): return
-    
-    shutil.rmtree(join(pluginsDir, plugin))
-    console.print(f"[green]Uninstalled {pluginName}")
-
-@app.command()
+@app.command('install')
 @app.command("i")
 @app.command("add")
-def install(plugin: Optional[str] = typer.Argument(None), version: Optional[str] = typer.Argument(None)):
-    if not plugin:
-        console.print("Select a plugin to install:")
-        cli = Bullet(
-            choices = [pluginRepo[p]['name'] for p in pluginRepo],
-            margin = 1,
-            background_color = "",
-            background_on_switch = "",
-            word_on_switch=colors.bright(colors.foreground["green"]),
-            bullet = "✅"
+def install(plugin_id: str, version_number: Optional[str] = typer.Argument(None), untrusted: bool = False):
+  if not plugin_id in pluginRepo['plugins']:
+    console.print(f"[red]Plugin {plugin_id} not in repository")
+    return
+
+  plugin = pluginRepo['plugins'][plugin_id]
+  
+  if not version_number:
+    version_number = list(plugin['versions'].keys())[0]
+    console.print(f'[yellow]No version specified, defaulting to newest one ({version_number})')
+
+  if not version_number in plugin['versions']:
+    console.print(f"[red]Version {version_number} not available")
+    return
+  
+  version = plugin['versions'][version_number]
+  # TODO: filter by release channel and supported obs version
+  # Find applicable file to download
+  # FIXME: make this cross platform
+  selected_file = next(filter(lambda f: f['os'] == 'windows', version['files']))
+
+  dl_url = selected_file['url']
+
+  sha256 = None
+  if not 'sha256' in selected_file:
+    if not untrusted:
+      console.print('[bold][red]WARNING: No checksum for plugin found, download will not be able to be verified, run with --untrusted to still proceed')
+      return
+    else:
+      console.print('[red]WARNING: No checksum for plugin found, download will not be able to be verified')
+  else:
+    untrusted = False
+    sha256 = selected_file['sha256']
+    
+  r = requests.get(dl_url, stream=True)
+
+  downloaded_file = b""
+  with Progress() as p:
+    dl_task = p.add_task("Downloading")
+    p.update(dl_task, total=int(r.headers.get("content-length", 0)))
+    for chunk in r.iter_content(32 * 1024):
+      if chunk:
+        downloaded_file += chunk
+        p.advance(dl_task, len(chunk))
+
+  hash_sha256 = hashlib.sha256()
+  hash_sha256.update(downloaded_file)
+  checksum = hash_sha256.hexdigest()
+  if not untrusted:
+    if checksum != sha256.lower():
+      console.print(f"[red]Checksum {checksum} invalid, expected checksum {sha256}, exiting")
+      exit(1)
+  else:
+    console.print(f'[gray](Untrusted Mode) Downloaded file has checksum {checksum}')
+
+  plugin_path = path.join(config['obs_plugin_path'], plugin_id)
+  shutil.rmtree(plugin_path, ignore_errors=True)
+  makedirs(plugin_path)
+  binDir = path.join(plugin_path, "bin")
+  mkdir(binDir)
+  dataDir = path.join(plugin_path, "data")
+  mkdir(dataDir)
+
+  with zipfile.ZipFile(io.BytesIO(downloaded_file)) as zip_file:
+    for zip_info in zip_file.infolist():
+      if zip_info.filename[-1] == "/":
+        continue
+
+      if zip_info.filename.startswith(f"data/obs-plugins/{plugin_id}"):
+        zip_info.filename = zip_info.filename.removeprefix(
+          f"data/obs-plugins/{plugin_id}"
         )
-        answer = cli.launch()
-        plugin = [p for p in pluginRepo if pluginRepo[p]['name'] == answer][0]
+        zip_file.extract(zip_info, dataDir)
 
-    if not plugin in pluginRepo:
-        console.print(f"[red]Plugin {plugin} not in repository")
-        return
-    
-    pluginName = pluginRepo[plugin]['name']
+      if zip_info.filename.startswith(f"obs-plugins"):
+        zip_info.filename = zip_info.filename.removeprefix(f"obs-plugins")
+        zip_file.extract(zip_info, binDir)
 
-    if not version: version = list(pluginRepo[plugin]['versions'].keys())[0]
-    if not version in pluginRepo[plugin]['versions']:
-        console.print(f"[red]Version {version} not available")
-        return
+    with open(path.join(plugin_path, "version.txt"), "w") as f:
+      f.write(version_number)
 
-    console.print(f"[green]Installing {pluginName} {version}")
+    console.print(f"[green]Installed {plugin['name']}")
 
-    dls = pluginRepo[plugin]['versions'][version]
-    url = dls['url']
-    checksum = dls['sha256']
+@app.command("rm")
+@app.command("del")
+def uninstall(plugin_id: str):
+  if not plugin_id in listdir(config['obs_plugin_path']):
+    console.print(f"[red]Plugin {plugin_id} not installed")
+    return
 
-    dl = downloadAndVerify(url, checksum)
+  plugin = pluginRepo['plugins'][plugin_id]
 
-    pluginDir = join(pluginsDir, plugin)
-    shutil.rmtree(pluginDir, ignore_errors=True)
-    mkdir(pluginDir)
-    binDir = join(pluginDir, 'bin')
-    mkdir(binDir)
-    dataDir = join(pluginDir, 'data')
-    mkdir(dataDir)
+  if not Confirm.ask(f"[red]Uninstall[/red] {plugin['name']}?"):
+    return
 
-    with zipfile.ZipFile(io.BytesIO(dl)) as zip_file:
-        for zip_info in zip_file.infolist():
-            if zip_info.filename[-1] == '/':
-                continue
+  shutil.rmtree(path.join(config['obs_plugin_path'], plugin_id))
+  console.print(f"[green]Uninstalled {plugin['name']}")
 
-            if zip_info.filename.startswith(f'data/obs-plugins/{plugin}'):
-                zip_info.filename = zip_info.filename.removeprefix(f'data/obs-plugins/{plugin}')
-                zip_file.extract(zip_info, dataDir)
+@app.command("update")
+def update(plugin_id: Optional[str] = typer.Argument(None)):
+  # TODO:
+  # for every installed plugin
+    # read installed version
+    # find newest compatible version in repo
+    # if newer, queue it for updating
+  # ask user for confirmation
+  # update plugins
+  return
 
-            if zip_info.filename.startswith(f'obs-plugins'):
-                zip_info.filename = zip_info.filename.removeprefix(f'obs-plugins')
-                zip_file.extract(zip_info, binDir)
-
-    with open(join(pluginDir, 'version.txt'), 'w') as f:
-        f.write(version)
-    
-    console.print(f"[green]Installed {pluginName}")
+@app.command("available")
+def search(query: str):
+  # TODO:
+  # List available plugins
+  # Hide incompatible ones
+  return
 
 if __name__ == "__main__":
-    app()
+  app()
